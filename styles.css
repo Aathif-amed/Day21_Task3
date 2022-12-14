@@ -1,0 +1,35 @@
+body {
+    background-color: #ADBCC9;
+}
+
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ADBCC9;
+    font-size: 2rem !important;
+    font-weight: bold;
+}
+
+button:hover {
+    color: #6c757d !important;
+}
+
+/* .row {
+    /* ,"m-4","d-flex","align-items-center"  x
+    display: flex !important;
+    align-items: center !important;
+    margin: 1.5rem !important;
+} */
+
+    /* .card-img-top{
+        max-width: 100%;
+        height: auto;
+    } */
+
+    .card{
+        max-height:400px;
+        overflow-y: hidden;
+    }
+    .card:hover{
+        overflow-y: scroll;
+    }
